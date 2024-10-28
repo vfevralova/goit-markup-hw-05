@@ -713,6 +713,7 @@ input {
   height: 120px;
   font-size: 12px;
   line-height: 1.17;
+  color: rgba(46, 47, 66, 0.4);
   letter-spacing: 0.04em;
   background-color: transparent;
   outline: transparent;
@@ -744,7 +745,7 @@ input {
 }
 
 .checkbox-link {
-  line-height: 1.33333;
+  line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
