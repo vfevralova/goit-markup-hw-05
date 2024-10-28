@@ -676,6 +676,15 @@ input {
   margin-bottom: 4px;
 }
 
+.modal-label-comment {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 16px;
+}
+
 .modal-field {
   margin-bottom: 8px;
 }
@@ -696,8 +705,6 @@ input {
 }
 
 .modal-comment {
-  margin-top: 4px;
-  margin-bottom: 16px;
   padding: 8px 16px;
   resize: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -707,6 +714,13 @@ input {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-comment:focus {
+  border-color: #4d5ae5;
 }
 
 .modal-comment::placeholder {
@@ -716,14 +730,17 @@ input {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-checkbox {
+  margin-bottom: 24px;
+}
+
 .modal-checkbox-text {
   display: flex;
   align-items: center;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 24px;
 }
 
 .checkbox-link {
